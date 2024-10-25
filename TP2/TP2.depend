@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1729798257 source:d:\tp ensi\langage c\tp2\main.c
+	<stdio.h>
+
+1729435815 source:d:\tp ensi\langage c\tp2\aymane.c
+	<stdio.h>
+	<stdlib.h>
+
