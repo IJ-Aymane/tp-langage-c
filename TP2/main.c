@@ -65,7 +65,7 @@ if (a!=0){
 
 
 */
-
+/*
     int i, c, e;
     for (i = 1; i <= 3; i++) {
         for (c = 1; c <= 41 - i; c++) {
@@ -110,5 +110,26 @@ if (a!=0){
         }
         printf("\n");
     }
+
+    */
+    #include <stdio.h>
+
+int somme(int a, int b) {
+    int S;
+    S = a + b;
+    return S;
+}
+    int a, b, r;
+
+    printf("a = ");
+    scanf("%d", &a);
+
+    printf("b = ");
+    scanf("%d", &b);
+
+    r = somme(a, b);
+
+    printf("%d + %d = %d\n", a, b, r);
+
     return 0;
 }
